@@ -4,6 +4,7 @@ import Country from "../Country/Country";
 
 
 
+
 const Countries = () => {
     const [countries,setCountries]=useState([]);
     
@@ -21,10 +22,8 @@ const Countries = () => {
         <div>
             <h3>Countries:{countries.length}</h3>
             {
-             countries.map(country=>
-              <Country key={country.cca3} country={country}>
-
-             </Country>)  
+                countries.map(country=>
+            <Country country={country} key={country.cca3}></Country>)
             }
         </div>
     );
