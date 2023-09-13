@@ -4,9 +4,9 @@
     border-radius: 5px;
     margin: 20px;
     padding: 20px;
-    width: 300px;
-    float: left;
+    /* width: 300px;
+    float: left; */
     text-align: center;
-    background-color: #f7f7f7;
+    background-color: beige;
     box-shadow: 5px 5px 10px lightgray;
 }
